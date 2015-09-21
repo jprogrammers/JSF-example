@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JSF-example:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JSF_example_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JSF-example" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.sun.faces:jsf-api:2.2.12" />
+          <element id="library" level="project" name="Maven: com.sun.faces:jsf-impl:2.2.12" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.glassfish.web:el-impl:2.2" />
+          <element id="library" level="project" name="Maven: javax.el:el-api:2.2" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="JSF-example/web/Web" />
+    </root>
+  </artifact>
+</component>
